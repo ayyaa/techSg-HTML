@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="86px" viewBox="0 0 100 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="techSG" transform="translate(-387.000000, -8658.000000)">
+            <g id="Group-62" transform="translate(105.000000, 8609.000000)">
+                <g id="Group-87">
+                    <g id="Group-81">
+                        <g id="Page-1" transform="translate(249.000000, 0.000000)">
+                            <rect id="Rectangle-12" fill="#D8D8D8" opacity="0" x="0" y="0" width="166" height="166"></rect>
+                            <path d="M33,49.0026462 L33,121.771877 L39.6666667,128.387262 L73,128.387262 L79.6666667,135.002646 L86.3333333,135.002646 L93,128.387262 L126.333333,128.387262 L133,121.771877 L133,49.0026462 L33,49.0026462 Z M86.3333333,115.156492 L126.333333,115.156492 L126.333333,55.6180308 L86.3333333,55.6180308 L86.3333333,115.156492 Z M39.6666667,115.156492 L79.6666667,115.156492 L79.6666667,55.6180308 L39.6666667,55.6180308 L39.6666667,115.156492 Z" id="Fill-1" fill="#0F243D"></path>
+                            <polygon id="Fill-2" fill="#E95545" points="46.3333333 75.4615385 73.0066667 75.4615385 73.0066667 68.8461538 46.3333333 68.8461538"></polygon>
+                            <polygon id="Fill-3" fill="#E95545" points="46.3333333 88.6923077 73.0066667 88.6923077 73.0066667 82.0769231 46.3333333 82.0769231"></polygon>
+                            <polygon id="Fill-4" fill="#E95545" points="46.3333333 101.923077 73.0066667 101.923077 73.0066667 95.3076923 46.3333333 95.3076923"></polygon>
+                            <polygon id="Fill-5" fill="#E95545" points="93 75.4615385 119.666667 75.4615385 119.666667 68.8461538 93 68.8461538"></polygon>
+                            <polygon id="Fill-6" fill="#E95545" points="93 88.6923077 119.666667 88.6923077 119.666667 82.0769231 93 82.0769231"></polygon>
+                            <polygon id="Fill-7" fill="#E95545" points="93 101.923077 119.666667 101.923077 119.666667 95.3076923 93 95.3076923"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

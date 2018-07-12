@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>transportation copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="transportation-copy-2">
+            <g id="icon-clock" transform="translate(75.000000, 77.000000)">
+                <g id="Group">
+                    <g transform="translate(12.000000, 0.000000)">
+                        <path d="M39.584,90.76 L39.176,79" id="Shape" stroke="#0F243D" stroke-width="4"></path>
+                        <circle id="Oval" stroke="#0F243D" stroke-width="3" fill="#E95545" fill-rule="nonzero" cx="40" cy="99" r="8"></circle>
+                        <g stroke-width="4">
+                            <rect id="Rectangle-path" stroke="#0F243D" x="0" y="0" width="78" height="78" rx="39"></rect>
+                            <polyline id="Shape" stroke="#E95545" stroke-linecap="round" points="38.772 27.39 38.772 39.153 55.192 49.666"></polyline>
+                        </g>
+                    </g>
+                    <g stroke-linecap="square" transform="translate(0.000000, 109.000000)" id="Shape" stroke="#0F243D" stroke-width="2">
+                        <path d="M90.586,0 L17.843,0 M100.729,0 L95.3,0 M13.129,0 L7.7,0 M1.9,0 L0.271,0"></path>
+                    </g>
+                    <g stroke-linecap="square" transform="translate(51.000000, 1.000000)" id="Shape" stroke="#0F243D" stroke-width="2">
+                        <path d="M0.657,10.657 L0.657,0.657 M27.762,38.657 L37.762,38.657 M19.121,18.087 L26.192,11.017"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
