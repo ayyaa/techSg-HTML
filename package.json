@@ -1,0 +1,19 @@
+{
+  "name": "techsg-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayyaa/techSg-HTML.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayyaa/techSg-HTML/issues"
+  },
+  "homepage": "https://github.com/ayyaa/techSg-HTML#readme"
+}
