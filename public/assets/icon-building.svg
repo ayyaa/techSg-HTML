@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>transportation copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="transportation-copy">
+            <g id="icon-building" transform="translate(38.000000, 72.000000)">
+                <g id="Group">
+                    <g transform="translate(8.000000, 0.000000)">
+                        <polygon id="Shape" fill="#64CDF2" fill-rule="nonzero" points="26 14 125 14 125 21 26 21"></polygon>
+                        <circle id="Oval" fill="#7ED321" fill-rule="nonzero" cx="9" cy="89" r="9"></circle>
+                        <circle id="Oval" fill="#7ED321" fill-rule="nonzero" cx="153" cy="72" r="9"></circle>
+                        <circle id="Oval" fill="#7ED321" fill-rule="nonzero" cx="153" cy="87" r="10"></circle>
+                        <polygon id="Shape" fill="#D6D6D6" fill-rule="nonzero" points="26 23 119 23 119 112 26 112"></polygon>
+                        <path d="M60,55 L86,55 L86,79 L60,79 L60,55 Z M26,55 L52,55 L52,79 L26,79 L26,55 Z M94,55 L120,55 L120,79 L94,79 L94,55 Z" id="Shape" fill="#E95545" fill-rule="nonzero"></path>
+                        <g stroke="#0F243D" stroke-width="3.541">
+                            <g transform="translate(0.000000, 80.000000)">
+                                <path d="M8.852,18.667 L8.852,32" id="Shape" stroke-linecap="round"></path>
+                                <ellipse id="Oval" cx="8.852" cy="8.889" rx="8.852" ry="8.889"></ellipse>
+                            </g>
+                            <path d="M153.377,98.667 L153.377,112" id="Shape" stroke-linecap="round"></path>
+                            <path d="M146.244,79.207 C142.987808,82.175586 141.885048,86.8371079 143.466,90.95 C145.037638,95.0582461 148.978397,97.7731594 153.377,97.778 C157.769,97.778 161.707,95.064 163.288,90.95 C164.868952,86.8371079 163.766192,82.175586 160.51,79.207 C161.59,77.438 162.23,75.253 162.23,72.889 C162.23,66.997 158.265,62.222 153.377,62.222 C148.489,62.222 144.525,66.997 144.525,72.889 C144.525,75.253 145.162,77.44 146.244,79.207 L146.244,79.207 Z M25.902,21.333 L119.738,21.333 L119.738,112 L25.902,112 L25.902,21.333 Z M119.738,40.889 L132.131,40.889 L132.131,112 L119.738,112 L119.738,40.889 Z M25.902,0 L41.836,0 L41.836,14.222 L25.902,14.222 L25.902,0 Z M61.312,7.111 L112.656,7.111 L112.656,14.222 L61.31,14.222 L61.31,7.112 L61.312,7.111 Z" id="Shape"></path>
+                            <path d="M25.902,48 L52.459,48 L52.459,55.111 L25.902,55.111 L25.902,48 Z M59.541,48 L86.098,48 L86.098,55.111 L59.541,55.111 L59.541,48 L59.541,48 Z M93.181,48 L119.738,48 L119.738,55.111 L93.18,55.111 L93.18,48 L93.181,48 Z M25.9,78.222 L52.46,78.222 L52.46,85.333 L25.902,85.333 L25.902,78.223 L25.9,78.222 Z M59.54,78.222 L86.097,78.222 L86.097,85.333 L59.541,85.333 L59.541,78.223 L59.54,78.222 Z M93.18,78.222 L119.737,78.222 L119.737,85.333 L93.18,85.333 L93.18,78.223 L93.18,78.222 Z M25.9,14.222 L125.048,14.222 L125.048,21.333 L25.902,21.333 L25.902,14.223 L25.9,14.222 Z M52.458,21.333 L59.54,21.333 L59.54,112 L52.458,112 L52.458,21.333 Z M86.098,21.333 L93.179,21.333 L93.179,112 L86.097,112 L86.097,21.333 L86.098,21.333 Z" id="Shape"></path>
+                            <path d="M119.738,55.111 L132.131,55.111 M119.738,71.111 L132.131,71.111 M119.738,87.111 L132.131,87.111 M119.738,103.111 L132.131,103.111" id="Shape" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                    <g stroke-linecap="square" transform="translate(0.000000, 114.000000)" id="Shape" stroke="#0F243D" stroke-width="2">
+                        <path d="M15.5,0 L149.5,0 M0.5,0 L10.5,0 M154.5,0 L164.5,0 M171.5,0 L174.5,0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
