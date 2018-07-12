@@ -10,15 +10,3 @@ $(window).scroll(function() {
     $("#navbar").addClass("navbar-transparent");
   }
 });
-
-
-// function myFunction() {
-//   var x = document.getElementById("resposiveMenu");
-//   var nameClass = x.className; 
-
-//   if (x.className === nameClass) {
-//       x.className += " responsive";
-//   } else {
-//       x.className = "topnav";
-//   }
-// }
