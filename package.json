@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/ayyaa/techSg-HTML/issues"
   },
-  "homepage": "https://github.com/ayyaa/techSg-HTML#readme"
+  "homepage": "https://github.com/ayyaa/techSg-HTML#readme",
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.10",
+    "style-loader": "^0.21.0",
+    "webpack-dev-server": "^3.1.4"
+  }
 }
