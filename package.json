@@ -12,22 +12,25 @@
     "type": "git",
     "url": "git+https://github.com/ayyaa/techSg-HTML.git"
   },
-  "author": "",
+  "author": "tsurayya ats tsauri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ayyaa/techSg-HTML/issues"
   },
   "homepage": "https://github.com/ayyaa/techSg-HTML#readme",
   "devDependencies": {
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "webpack": "^4.16.0",
-    "webpack-cli": "^3.0.8"
-  },
-  "dependencies": {
     "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "handlebars-loader": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.10",
     "style-loader": "^0.21.0",
+    "to-string-loader": "^1.1.5",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
-  }
+  },
+  "dependencies": {}
 }

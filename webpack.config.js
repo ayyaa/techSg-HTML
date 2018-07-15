@@ -1,37 +1,33 @@
-var path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry : {
-    graph: './public/javacripts/graph.js',
-    // scripts: './public/javacripts/scripts.js',
-    // style: './public/stylesheets/style.css'
+    graph: './public/javascripts/graph.js',
+    scripts: './public/javascripts/scripts.js',
+    style: './public/stylesheets/style.css'
   },
   output:{
     path : path.resolve(__dirname,'./build/'),
-    filename : 'javacripts/graph.bundle.js',
+    filename : 'javascripts/[name].bundle.js',
   },
   module : {
     rules : [
       {
         test : /\.css$/,
-        loader : ExtractTextPlugin.extract(['to-string-loader','css-loader'])
+        loader: ExtractTextPlugin.extract(['to-string-loader', 'css-loader']),
       }
     ]
   },
   plugins : [
-    new ExtractTextPlugin({
-      filename : 'stylesheets/style.bundle.css',
-    })
+    new UglifyJSPlugin(),
+    new ExtractTextPlugin("/css/[name].bundle.css")
+  , new HtmlWebpackPlugin({
+    scripts: path.join(__dirname, 'javacripts/scripts.bundle.js'),
+  })
   ],
-  // resolve: {
-  //   alias: {
-  //     Utilities: path.resolve(__dirname, 'src/utilities/'),
-  //     Templates: path.resolve(__dirname, 'src/templates/')
-  //   }
-  // },
-  devServer: {  // configuration for webpack-dev-server
-    contentBase: './src',
-    port: 7700, // port to run dev-server
-  } 
+  resolve: {
+    extensions: ['.css', '.js']
+  }
 }
