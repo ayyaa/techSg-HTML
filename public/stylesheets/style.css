@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #0f243d;
+  -webkit-font-smoothing: antialiased; 
+}
+
+div {
+  display: block;
+}
+
+.navbar-link {
+  font-size: 16px;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-transparent {
+  margin-bottom: 0;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: transparent;
+}
+
+.navbar-background {
+  margin-bottom: 0;
+  border-radius: 0;
+  background: rgba(166, 152, 169, 0.93);
+  border-color: transparent;
+}
+
+.intro {
+  padding-top: 20%;
+  margin-bottom: 20%;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto slab", sans-serif;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 6rem;
+  font-size: 1.2rem;
+}
+
+.intro h1 {
+  font-size: 3.5rem;
+  letter-spacing: 1.3px;
+}
+
+.text-home {
+  letter-spacing: 1.3px;
+  font-size: 1.3rem;
+  margin-left: 2.5rem;
+  padding-left: 2rem;
+}
+
+.logo {
+  padding-top: 0;
+  margin-right: 2.5rem;
+}
+
+.bg-top--home .container .intro p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.source-text {
+  color: #fff;
+  position: absolute;
+  bottom: 1rem;
+  left: 3.8rem;
+  font-size: 12px;
+}
+
+.bg-top {
+  background-color: #ac97a8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content--variety .description-text {
+  padding-top: 1rem;
+  font-size: 22px !important;
+  letter-spacing: 0.17rem !important;
+  text-align: center;
+  line-height: 30px
+}
+
+.description-text {
+  padding-top: 1rem;
+  font-size: 16px !important;
+  letter-spacing: 0.17rem !important;
+  text-align: center;
+  line-height: 25px
+}
+
+.bg-top--home {
+  background-image: url(../images/background-1.png);
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  line-height: 1.3333333;
+  border-radius: 0.1rem;
+}
+
+.btn-download {
+  font-family: "Open Sans",sans-serif;
+  text-transform: uppercase;
+  background-color: #ea675c;
+  border-color: #ea675c;
+  font-weight: 600;
+  color: #fff;
+  font-size: 18px !important;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+.text-label {
+  font-size: 24px;
+}
+
+.text-p {
+  font-size: 18px;
+}
+
+.content--list .content__box h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.content--list .content__box p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.17rem;
+}
+
+.content--graph .content__box h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.content--variety .content__box h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.content--form h4 {
+  font-size: 1.6rem;
+}
+
+.content--graph .content__box p {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.17rem;
+}
+
+.content--variety .content__box p {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+  letter-spacing: 0.17rem;
+}
+
+.content--graph {
+  padding: 10rem 0;
+  align-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content--form {
+  padding: 5rem 0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  align-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content--variety {
+  padding-top: 10rem;
+  align-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content--list {
+  padding: 12rem 2.5rem 10rem 0rem;
+  align-content: center;
+}
+
+.size-content-graph {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.canvas-graph {
+  margin-top: 4rem;
+  position: relative; 
+  height:100vh; 
+  width:100vw
+}
+
+.canvas-graph-pie {
+  margin-top: 2rem;
+  position: relative; 
+}
+
+.bg-grey {
+  background-color: #e7e9eb;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+}
+
+.icon-list {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#icon-bar {
+  display: none;
+}
+
+.line {
+  border-top: 2px solid white;
+  width: 100%;
+  display: none;
+}
+
+
+.square--blue {
+  background-color: #273a51;
+}
+
+.square--cyan {
+  background-color: #FB713E;
+}
+
+.square--red {
+  background-color: #ea675c;
+}
+
+.square--blue-light {
+  background-color: #5c99df;
+}
+
+.chart__table {
+  color: #0f243d;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  padding-top: 100px
+}
+
+.chart__table__3 {
+  color: #0f243d;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 100px
+}
+
+.space--top {
+  margin-top: 4rem;
+}
+
+.space--bottom {
+  margin-bottom: 4rem;
+}
+
+.box__justify {
+  padding-top: 20%;
+  margin-bottom: 20%;
+}
+
+
+@media (min-width: 576px) {
+  .right-space {
+    margin-right: 0.8rem;
+  }
+
+  #icon-bar {
+    display: block;
+  }
+
+  .text-home {
+    letter-spacing: 0.5rem;
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    padding-left: 0rem;
+  }
+
+  .logo {
+    margin-left: 0.5rem;
+  }
+
+  .navbar-link {
+    margin-left: 0.3rem;
+    font-size: 16px;
+  }
+
+  .picture {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .resize-icon {
+    width: 13rem;
+    height: 13rem;
+    margin-top: 3rem;
+  }
+
+  .bg-top--home .container p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+  }
+  
+  .content--variety .description-text {
+    padding-top: 1rem;
+    font-size: 1.3rem !important;
+    letter-spacing: 0.3rem !important;
+    text-align: center;
+    line-height: 30px
+  }
+
+  .content--list .content__box p {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.17rem;
+  }
+
+  .content--list .content__box h4 {
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .content--graph .content__box h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .content--variety .content__box h4 {
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .description-text {
+    padding-top: 1rem;
+    font-size: 1.2rem !important;
+    letter-spacing: 0.3rem !important;
+    text-align: center;
+    line-height: 25px
+  }
+
+  .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 0.1rem;
+  }
+
+  .intro h1 {
+    font-family: "Roboto slab", sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-link a {
+    display: none;
+  }
+  
+  .logo {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .navbar-link.responsive {
+    position: relative;
+  }
+  .navbar-link.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .logo.responsive {
+    padding-top: 1.5rem;
+    display: block;
+  }
+
+  .line.responsive {
+    display: block;
+  }
+
+}
+
+@media (min-width: 992px) {
+  #icon-bar {
+    display: none;
+  }
+  .line {
+    border-top: 1px solid white;
+    width: 100%;
+    display: none;
+  }
+
+  .logo {
+    padding-top: 0rem;
+    margin-left: 0.5rem;
+  }
+
+  .resize-icon {
+    width: 13rem;
+    height: 13rem;
+    margin-top: 3rem;
+  }
+
+  .text-home {
+    letter-spacing: 0.3rem;
+    font-size: 1.3rem;
+    margin-left: 2.5rem;
+    padding-left: 2rem;
+  }
+  
+  .bg-top--home .container p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 0.1rem;
+  }
+
+  .intro h1 {
+    font-family: "Roboto slab", sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .content--graph .content__box h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .content--graph .content__box p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.17rem;
+  }
+
+  .content--list .content__box p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.17rem;
+  }
+
+  .content--list .content__box h4 {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .content--variety .content__box p {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    letter-spacing: 0.17rem;
+  }
+
+  .content--variety .content__box h4 {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .content--variety .description-text {
+    padding-top: 1rem;
+    font-size: 20px !important;
+    letter-spacing: 0.19rem !important;
+    text-align: center;
+    line-height: 30px
+  }
+
+  .description-text {
+    padding-top: 1rem;
+    font-size: 16px !important;
+    letter-spacing: 0.3rem !important;
+    text-align: center;
+    line-height: 25px
+  }
+
+  .icon-list {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #icon-bar {
+    display: none;
+  }
+  .line {
+    border-top: 2px solid white;
+    width: 100%;
+    display: none;
+  }
+
+  .content--graph .content__box h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .bg-top--home .container p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .intro h1 {
+    font-family: "Roboto slab", sans-serif;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+  }
+
+  .content--graph .content__box p {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    letter-spacing: 0.17rem;
+  }
+
+  .content--list .content__box p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.17rem;
+  }
+
+  .content--list .content__box h4 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .description-text {
+    padding-top: 1rem;
+    letter-spacing: 0.19rem !important;
+    text-align: center;
+    line-height: 25px
+  }
+
+  .content--variety .description-text {
+    padding-top: 1rem;
+    font-size: 20px !important;
+    letter-spacing: 0.2rem !important;
+    text-align: center;
+    line-height: 30px
+  }
+
+  .content--variety .content__box p {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    letter-spacing: 0.17rem;
+  }
+
+  .content--variety .content__box h4 {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .icon-list {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}

@@ -1,0 +1,393 @@
+<html>
+  <head>
+    <link rel="shortcut icon" href="../public/images/favicon.ico">
+    <title>TechSG Insights: Launchpad @ one-north</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/preflight.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+    <link href="../public/stylesheets/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../public/javascripts/scripts.js"></script>
+    <script src="../public/javascripts/graph.js"></script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <nav class="flex items-center justify-between flex-wrap p-6 navbar-default navbar-fixed-top navbar-transparent" id="navbar" >
+          <div class="flex items-center flex-no-shrink text-white mr-6">
+            <span class="text-home">Launchpad Ecosystem</span>
+          </div>
+          <div id="icon-bar">
+            <button class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white right-space mb-2" onclick="myFunction()">
+              <a href="javascript:void(0);" class="icon-bars"></a>
+                <i class="fas fa-bars"></i>
+              </a>
+            </button>
+          </div>
+          <div class="line" id="line"></div>
+          <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto" >
+            <div class="navbar-link lg:flex-grow" id="resposiveMenu" style="position:relative;">
+              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 no-underline navbar-link">
+                Home
+              </a>
+              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 no-underline navbar-link">
+                Directory
+              </a>
+            </div>
+            <div class="logo" id="logo">
+              <img src="../public/images/techsg-logo.svg" alt="">
+            </div>
+          </div>
+        </nav>
+        <div class="m-0">
+          <div class="flex bg-top bg-top--home">
+            <div class="container">
+              <div class="intro animated bounceInUp">
+                <h1 class="mb-1 ">Welcome to the World's Most Dense</h1>
+                <h1 class="mb-10">Start-Up Ecosystem*</h1>
+                <a href="#download-form" class="btn btn-lg btn-download hover:">Download Analytics Highlights</a>
+                <p class="mt-2 description-text">How the Launchpad ecosystem has developed and evolved since 2015</p>
+              </div>
+            </div>
+            <div class="source-text">
+              *Source: Startup Genome
+            </div>
+          </div>
+          <div class="content--list bg-white content-center">
+            <div class="lg:flex-wrap lg:flex md:block xl:flex text-center mx-auto">
+              <div class="lg:w-1/4">
+                <img src="../public/images/icon-building.svg" alt="startups" class="picture">
+                <div class="content__box">
+                  <h4>341</h4>
+                  <p>Start-ups</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4">
+                <img src="../public/images/icon-hand.svg" alt="facilitaitor" class="picture">
+                <div class="content__box">
+                  <h4>64</h4>
+                  <p>Facilitators</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 ">
+                <img src="../public/images/icon-clock.svg" alt="young talent" class="picture">
+                <div class="content__box">
+                  <h4>Young Talent</h4>
+                  <p>Briming with fresh ideas</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4">
+                <img src="../public/images/icon-tree.svg" alt="diverse indutries" class="picture">
+                <div class="content__box">
+                  <h4>Diverse Industries</h4>
+                  <p>From e-commerce to medical tech</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content--graph bg-grey content-center">
+            <div class="lg:flex text-center mx-auto">
+              <div class="lg:w-1/2 ">
+                <div class="content__box size-content-graph">
+                  <h4>ATRACTING MORE TALENT</h4>
+                  <canvas id="bar-graph" class="canvas-graph"></canvas>
+                </div>
+              </div>
+              <div class="lg:w-1/2 lg:pt-10 lg:pb-5 space--top">
+                <div class="content__box ">
+                  <h4>A GROWING ECO SYSTEM</h4>
+                  <p class="description-text">In two years beetween 2015 and 2017, the numbers of startups at launchpad has grown from 216 to 361. More facilitatore are also on hand to nurture these young companies and help them unlock their true potential. Launchpad is home to 64 such facilitators, an increase from 41 in 2015. And this numbers are only growing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content--graph bg-white content-center">
+            <div class="lg:flex text-center mx-auto">
+              <div class="lg:w-1/2 lg:pt-10 lg:pb-5 space--bottom">
+                <div class="content__box size-content-graph box__justify">
+                  <h4>INNOVATION HOTBED</h4>
+                  <p class="description-text">Fresh ideas are constantly making their way to launchpad, creating a dynamic ecosystem that buzzes activity. Many of the firms at launchpad have only entered within the last 15 months, and each new entry brings with in an enthusiansm and passion that's highly contagious. </p>
+                </div>
+              </div>
+              <div class="lg:w-1/2 content-center">
+                <div class="content__box ">
+                  <h4>TENURE IN LAUNCHPAD</h4>
+                  <canvas id="pie-graph" class="canvas-graph-pie" height="200px"></canvas>
+                  <table class="chart__table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="square square--blue mb-6 mt-10"></div>
+                        </td>
+                        <td class="pl-5 pb-6 pt-10">
+                          < 
+                        </td>
+                        <td class="pl-1 pb-6 pt-10">
+                          15 Months
+                        </td>
+                        <td class="pl-8 pb-6 pt-10">
+                          <b>73.0 %</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="square square--cyan"></div>
+                        </td>
+                        <td class="pl-5">
+                          > 
+                        </td>
+                        <td class="pl-1">
+                          15 Months
+                        </td>
+                        <td class="pl-8">
+                          <b>27.0 %</b>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content--graph bg-grey">
+            <div class="lg:flex text-center mx-auto">
+              <div class="lg:w-1/2 ">
+                <div class="content__box">
+                  <h4>AGE OF START-UP</h4>
+                  <canvas id="pie-graph-2" class="canvas-graph-pie" height="200px"></canvas>
+                  <table class="chart__table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="square square--blue mb-6 mt-10"></div>
+                        </td>
+                        <td class="pl-5 pb-6 pt-10">
+                          < 
+                        </td>
+                        <td class="pl-1 pb-6 pt-10">
+                          2 years
+                        </td>
+                        <td class="pl-8 pb-6 pt-10">
+                          <b>58.0 %</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="square square--cyan mb-6"></div>
+                        </td>
+                        <td class="pl-5 pb-6">
+                          
+                        </td>
+                        <td class="pl-1 pb-6">
+                          2 - 5 years
+                        </td>
+                        <td class="pl-8 pb-6">
+                          <b>27.0 %</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="square square--red"></div>
+                        </td>
+                        <td class="pl-5">
+                          > 
+                        </td>
+                        <td class="pl-1">
+                          5 years
+                        </td>
+                        <td class="pl-8">
+                          <b>15.0 %</b>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="lg:w-1/2 lg:pt-10 lg:pb-5 space--top">
+                <div class="content__box box__justify">
+                  <h4>YOUNG AND RARING TO GO</h4>
+                  <p class="description-text">It's no secret Launchpad is home to the Next Big idea. Most firms here are less than two years old, witch means there are plenty of fresh ideas bounching arounds. There's also an athmosphere of innovation, creativity and urgency that's hard to find elsewhere.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content--variety bg-white">
+            <div class="lg:flex lg:flex-col text-center mx-auto pl-5 pr-5">
+              <div class="lg:flex-wrap lg:flex md:block xl:flex text-center mb-10">
+                <div class="lg:w-1/5 mx-auto resize-icon">
+                  <img src="../public/images/icon-cart.svg" alt="startups">
+                </div>
+                <div class="lg:w-1/5 mx-auto icon-list resize-icon">
+                  <img src="../public/images/icon-book.svg" alt="facilitaitor">
+                </div>
+                <div class="lg:w-1/5 mx-auto resize-icon">
+                  <img src="../public/images/icon-triangle.svg" alt="young talent">
+                </div>
+                <div class="lg:w-1/5 mx-auto icon-list resize-icon">
+                  <img src="../public/images/icon-stetoscope.svg" alt="diverse indutries">
+                </div>
+                <div class="lg:w-1/5 mx-auto resize-icon">
+                  <img src="../public/images/icon-mobile.svg" alt="diverse indutries">
+                </div>
+              </div>
+              <div class="lg:w-1/2 lg:pt-10 lg:pb-5 mx-auto">
+                <div class="content__box">
+                  <h4>VARIETY: THE SPICE OF LIFE</h4>
+                  <p class="description-text">Think that start-ups are all about e-commerce ? Think again. Firms at launchpad are now in more industries that ever before, from cloud systems to mobility solutions. That diversity means that there's always something to learn from the start-up next door -- and what cloud be more exciting than that ?</p>
+                </div>
+              </div>
+              <div class="lg:flex-wrap lg:flex md:block xl:flex text-center mt-10">
+                <div class="lg:w-1/2">
+                  <img src="../public/images/2015.png" alt="startups">
+                </div>
+                <div class="lg:w-1/2">
+                  <img src="../public/images/2017.png" alt="facilitaitor">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content--graph bg-grey">
+            <div class="lg:flex text-center mx-auto">
+              <div class="lg:w-1/2 ">
+                <div class="content__box">
+                  <h4>THE JOURNEY AFTER LAUNCHPAD*</h4>
+                  <canvas id="pie-graph-3" class="canvas-graph-pie" height="200px"></canvas>
+                  <table class="chart__table__3">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="square square--blue mb-6 mt-10"></div>
+                        </td>
+                        <td class="pl-5 pb-6 pt-10">
+                          Relocated 
+                        </td>
+                        <td class="pl-8 pb-6 pt-10">
+                          <b>47.5 %</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="square square--cyan mb-6"></div>
+                        </td>
+                        <td class="pl-5 pb-6">
+                          Remainded in same block
+                        </td>
+                        <td class="pl-8 pb-6">
+                          <b>34.3 %</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="square square--red mb-6"></div>
+                        </td>
+                        <td class="pl-5 pb-6">
+                          Inactive/Ceased operations
+                        </td>
+                        <td class="pl-8 pb-6">
+                          <b>14.1 %</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="square square--red"></div>
+                        </td>
+                        <td class="pl-5">
+                          Moved to other block 
+                        </td>
+                        <td class="pl-8">
+                          <b>4.0 %</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3" class="pt-8">
+                          *Based on start-ups present at Launchpad in November 2015 and their statuses as at March 2017
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="lg:w-1/2 lg:pt-10 lg:pb-5 space--top">
+                <div class="content__box box__justify">
+                  <h4>SPARKING THE FIRE</h4>
+                  <p class="description-text">For many, launchpad, is well, a launch pad to grather thing: Nearly one in two firms here relocate to bigger, better space. A handful stay whithin launchpad. <br><br> But for every success story that comes out of launchpad, there is also news of ceased operation. that's part and parcel of enterprenership. Being a part of launchpad encourages these budding enterpreneurs to try again.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content--form bg-white">
+            <div class="lg:flex text-left mx-auto">
+              <form class="w-full">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <h4 class="px-3 mb-3">Download the Executive Summary</h4>
+                  <div class="w-full px-3 mb-5 md:mb-0 mt-10">
+                    <label class="block tracking-wide text-label mb-2" for="grid-first-name">
+                      Name*
+                    </label>
+                    <input class="appearance-none block w-full text-grey-darker border border-black rounded py-4 px-4 mb-3 leading-tight max-w-lg" id="grid-name" type="text" >
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label class="block tracking-wide text-label  mb-2" for="grid-password">
+                      Email*
+                    </label>
+                    <input class="appearance-none block w-full text-grey-darker border border-black rounded py-4 px-4 mb-3 leading-tight max-w-lg" id="grid-email" type="email" >
+                    <p class="text-black text-p">Must be a valid email, download link will be sent to this email</p>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label class="block tracking-wide text-label mb-2" for="grid-password">
+                      Organization Name
+                    </label>
+                    <input class="appearance-none block w-full text-grey-darker border border-black rounded py-4 px-4 mb-3 leading-tight max-w-lg" id="grid-email" type="email" >                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label class="block tracking-wide text-label mb-2" for="grid-password">
+                      Organization Type*
+                    </label>
+                    <div class="relative">
+                      <select class="block appearance-none w-full border border-black py-4 px-4 pr-8 rounded leading-tight max-w-lg" id="grid-state">
+                        <option>Startup</option>
+                      </select>
+                      <div class="pointer-events-none absolute pin-y pin-r flex items-center px-6 text-grey-darker">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6 mt-10">
+                  <div class="w-full px-3">
+                    <p class="text-black text-p">Download the Launchpad@one-north: Dynamism and Diversity report today. Download link will be emailed to you. </p>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6 mt-10">
+                  <div class="w-full px-3">
+                    <input class="mr-2 leading-tight" type="checkbox">
+                    <span class="text-p">
+                      I hereby consent to sharing my information with NUS Enterprise and it's partner's
+                    </span>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6 mt-10">
+                  <div class="w-full px-3 mt-4">
+                    <a href="#download-form" class="btn btn-lg btn-download">Download Report</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span class="uppercase">Copyright © 2017 nus. All right Reserved</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
